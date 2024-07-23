@@ -1,15 +1,12 @@
 # nmap_tls_parser
 
-Nmap TLS Parser
+Nmap TLS parser
 
-This script called "nmap_tls_parser.py" was created by Arturo Correa "P4nth4_R31" allows you to consolidate nmap .nmap and .txt scan files into a directory and extract information about TLS 1.0 and 1.1 versions of specific ports. The script filters and displays only IPs and ports that exactly match the port specified by the user.
+This script called "nmap_tls_parser.py" allows you to consolidate .nmap and .txt nmap scan files from "--script ssl-enum-ciphers" into a directory and extract information about the TLS 1.0 and 1.1 versions of specific ports. The script filters and displays only IPs and ports that exactly match the port specified by the user.
 
 Characteristics
 
- File Consolidation: The script consolidates all .nmap and .txt files into the current directory.
- TLS Extract: Extracts versions of TLSv1.0 and TLSv1.1 from the specified ports.
- Exact Filtering: Only displays ports that exactly match the port entered by the user.
- Simple User Interface: Uses a pop-up window for the user to enter the desired TCP port.
+File Consolidation: The script consolidates all .nmap and .txt files into the current directory. TLS Extract: Extracts versions of TLSv1.0 and TLSv1.1 from the specified ports. Exact Filtering: Only displays ports that exactly match the port entered by the user. Simple user interface – uses a pop-up window for the user to enter the desired TCP port.
 
 Use
 
@@ -42,24 +39,24 @@ If the port you entered is 443 and there is an IP with multiple TLS versions TLS
 "443/tcp open"
 TLSv1.0
 192.168.10.10
+....
+....
 
 "443/tcp open"
 TLSv1.1
 192.168.10.58
+....
 
 Script created by Arturo Correa 'P4nth4_R31'
 
 =========================================================================================================================
-Nmap TLS Parser
+Analizador TLS de Nmap
 
-Este script llamado "nmap_tls_parser.py" fue creado por Arturo Correa. "P4nth4_R31" le permite consolidar archivos de escaneo nmap .nmap y .txt en un directorio y extraer información sobre las versiones TLS 1.0 y 1.1 de puertos específicos. El script filtra y muestra solo las IP y los puertos que coinciden exactamente con el puerto especificado por el usuario.
+Este script llamado "nmap_tls_parser.py" permite consolidar archivos de escaneo nmap .nmap y .txt provenientes de "--script ssl-enum-ciphers" en un directorio y extraer información sobre las versiones TLS 1.0 y 1.1 de puertos específicos. El script filtra y muestra solo las IP y los puertos que coinciden exactamente con el puerto especificado por el usuario.
 
 Características
 
- Consolidación de archivos: el script consolida todos los archivos .nmap y .txt en el directorio actual.
- Extracto de TLS: extrae versiones de TLSv1.0 y TLSv1.1 de los puertos especificados.
- Filtrado exacto: solo muestra los puertos que coinciden exactamente con el puerto ingresado por el usuario.
- Interfaz de usuario simple: utiliza una ventana emergente para que el usuario ingrese el puerto TCP deseado.
+Consolidación de archivos: el script consolida todos los archivos .nmap y .txt en el directorio actual. Extracto de TLS: extrae versiones de TLSv1.0 y TLSv1.1 de los puertos especificados. Filtrado exacto: solo muestra los puertos que coinciden exactamente con el puerto ingresado por el usuario. Interfaz de usuario simple: utiliza una ventana emergente para que el usuario ingrese el puerto TCP deseado.
 
 Usar
 
@@ -92,9 +89,12 @@ Si el puerto que ingresaste es 443 y hay una IP con múltiples versiones de TLS 
 "443/tcp open"
 TLSv1.0
 192.168.10.10
+....
+....
 
 "443/tcp open"
 TLSv1.1
 192.168.10.58
+....
 
-Guión creado por Arturo Correa 'P4nth4_R31'
+Script created by Arturo Correa 'P4nth4_R31'
