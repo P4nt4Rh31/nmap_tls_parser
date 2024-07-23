@@ -43,6 +43,7 @@ If the port you entered is 443 and there is an IP with multiple TLS versions TLS
 Script created by Arturo Correa 'P4nth4_R31'
 
 =========================================================================================================================
+
 Analizador TLS de Nmap
 
 Este script llamado "nmap_tls_parser.py" permite consolidar archivos de escaneo nmap .nmap y .txt provenientes de "--script ssl-enum-ciphers" en un directorio y extraer información sobre las versiones TLS 1.0 y 1.1 de puertos específicos. El script filtra y muestra solo las IP y los puertos que coinciden exactamente con el puerto especificado por el usuario.
