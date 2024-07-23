@@ -36,16 +36,9 @@ Output Example
 
 If the port you entered is 443 and there is an IP with multiple TLS versions TLSv1.0 y TLSv1.1, you should see something like:
 
-"443/tcp open"
-TLSv1.0
-192.168.10.10
-....
-....
+![imagen](https://github.com/user-attachments/assets/bc05886e-23d0-4d5a-810e-34b150567bc0)
 
-"443/tcp open"
-TLSv1.1
-192.168.10.58
-....
+![imagen](https://github.com/user-attachments/assets/5b1be696-3b70-44d0-a884-590a7c6f543f)
 
 Script created by Arturo Correa 'P4nth4_R31'
 
@@ -86,15 +79,8 @@ Ejemplo de salida
 
 Si el puerto que ingresaste es 443 y hay una IP con múltiples versiones de TLS TLSv1.0 y TLSv1.1, deberías ver algo como:
 
-"443/tcp open"
-TLSv1.0
-192.168.10.10
-....
-....
+![imagen](https://github.com/user-attachments/assets/bc05886e-23d0-4d5a-810e-34b150567bc0)
 
-"443/tcp open"
-TLSv1.1
-192.168.10.58
-....
+![imagen](https://github.com/user-attachments/assets/5b1be696-3b70-44d0-a884-590a7c6f543f)
 
 Script created by Arturo Correa 'P4nth4_R31'
